@@ -1,0 +1,106 @@
+CRITICAL - 2023-11-02 16:05:32 --> Invalid file: auth/register.php
+#0 C:\laragon\www\practicacandocodeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.p...')
+#1 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(31): view('auth/register', Array)
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-02 16:19:13 --> name is not a valid Validation template.
+#0 C:\laragon\www\practicacandocodeigniter\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('name')
+#1 C:\laragon\www\practicacandocodeigniter\app\Views\auth\registro.php(37): CodeIgniter\Validation\Validation->listErrors('name')
+#2 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#5 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(32): view('auth/registro', Array)
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#7 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 16:20:49 --> name is not a valid Validation template.
+#0 C:\laragon\www\practicacandocodeigniter\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('name')
+#1 C:\laragon\www\practicacandocodeigniter\app\Views\auth\registro.php(37): CodeIgniter\Validation\Validation->listErrors('name')
+#2 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#5 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(33): view('auth/registro', Array)
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#7 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 16:23:08 --> syntax error, unexpected token "if", expecting "function" or "const"
+#0 C:\laragon\www\practicacandocodeigniter\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\practicacandocodeigniter\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(788): class_exists('\\App\\Controller...', true)
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-11-02 16:23:52 --> nombre is not a valid Validation template.
+#0 C:\laragon\www\practicacandocodeigniter\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('nombre')
+#1 C:\laragon\www\practicacandocodeigniter\app\Views\auth\registro.php(36): CodeIgniter\Validation\Validation->listErrors('nombre')
+#2 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#5 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(34): view('auth/registro', Array)
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#7 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 16:26:42 --> nombre is not a valid Validation template.
+#0 C:\laragon\www\practicacandocodeigniter\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('nombre')
+#1 C:\laragon\www\practicacandocodeigniter\app\Views\auth\registro.php(36): CodeIgniter\Validation\Validation->listErrors('nombre')
+#2 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#5 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(34): view('auth/registro', Array)
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#7 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 16:27:48 --> nombre is not a valid Validation template.
+#0 C:\laragon\www\practicacandocodeigniter\system\Validation\Validation.php(485): CodeIgniter\Validation\Exceptions\ValidationException::forInvalidTemplate('nombre')
+#1 C:\laragon\www\practicacandocodeigniter\app\Views\auth\registro.php(31): CodeIgniter\Validation\Validation->listErrors('nombre')
+#2 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#3 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#5 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(34): view('auth/registro', Array)
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#7 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 22:49:19 --> Call to a member function hasError() on bool
+#0 C:\laragon\www\practicacandocodeigniter\system\View\View.php(210): include()
+#1 C:\laragon\www\practicacandocodeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/registro', Array, true)
+#3 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(70): view('auth/registro', Array)
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#5 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-11-02 22:58:43 --> Type of App\Controllers\Auth::$request must not be defined (as in class App\Controllers\BaseController)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-02 22:59:16 --> Type of App\Controllers\Auth::$request must not be defined (as in class App\Controllers\BaseController)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-02 23:00:32 --> Type of App\Controllers\Auth::$request must not be defined (as in class App\Controllers\BaseController)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-11-02 23:15:13 --> Invalid file: auth/entrar.php
+#0 C:\laragon\www\practicacandocodeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/entrar.php')
+#1 C:\laragon\www\practicacandocodeigniter\system\Common.php(1094): CodeIgniter\View\View->render('auth/entrar', Array, true)
+#2 C:\laragon\www\practicacandocodeigniter\app\Controllers\Auth.php(97): view('auth/entrar', Array)
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(823): App\Controllers\Auth->grabar()
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

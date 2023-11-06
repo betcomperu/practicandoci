@@ -1,0 +1,26 @@
+CRITICAL - 2023-11-04 13:46:50 --> FilterLogin filter must have a matching alias defined.
+#0 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FilterLogin')
+#1 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('entrar')
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('entrar', 'before')
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-11-04 13:47:31 --> FilterLogin filter must have a matching alias defined.
+#0 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('FilterLogin')
+#1 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(244): CodeIgniter\Filters\Filters->processAliasesToClass('after')
+#2 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('entrar')
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('entrar', 'before')
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-11-04 14:35:59 --> Class "Config\App\Filters\Auth" not found
+#0 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2023-11-04 14:36:55 --> Class "Config\App\Filters\Auth" not found
+#0 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
