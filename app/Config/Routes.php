@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use CodeIgniter\Router\RouteCollection;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -32,13 +34,16 @@ $routes->setAutoRoute(false);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-$routes->add('/entrar', 'auth::index');
-$routes->add('/registrar', 'auth::registro');
-$routes->post('/grabar', 'auth::grabar');
-$routes->add('/logearse', 'auth::logearse');
-$routes->add('/dashboard', 'dashboard::index',['filter'=>'auth']);
-$routes->add('/logout', 'auth::salir');
-
+$routes->group('',  function (RouteCollection $routes) {
+    $routes->add('/entrar', 'auth::index');
+    $routes->add('/registrar', 'auth::registro');
+    $routes->post('/grabar', 'auth::grabar');
+    $routes->add('/logearse', 'auth::logearse');
+    $routes->add('/logout', 'auth::salir');
+});
+$routes->group('',  function (RouteCollection $routes) {
+    $routes->add('/dashboard', 'dashboard::index', ['filter' => 'auth']);
+});
 /*
  * --------------------------------------------------------------------
  * Additional Routing

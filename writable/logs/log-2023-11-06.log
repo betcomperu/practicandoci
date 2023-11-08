@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-06 10:25:43 --> syntax error, unexpected token "/"
+#0 C:\laragon\www\practicacandocodeigniter\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\practicacandocodeigniter\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Filters\\Aut...')
+#2 C:\laragon\www\practicacandocodeigniter\system\Filters\Filters.php(166): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Filters\\Aut...')
+#3 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#4 C:\laragon\www\practicacandocodeigniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\practicacandocodeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

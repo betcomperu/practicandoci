@@ -10,11 +10,11 @@ class Auth implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
-        // Comprobar si el usuario está autenticado
-        if (!session()->has('loggedUser')) {
-            // Si no está autenticado, redirigir al login
-            return redirect()->to('/entrar');
+        if (!session()->get('isLoggedIn')) {
+            return redirect()->to(site_url('/entrar'));
         }
+
+        return $request;
     }
 
     public function after(RequestInterface $request, ResponseInterface $response, $arguments = null)

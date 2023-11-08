@@ -19,9 +19,7 @@ class Auth extends BaseController
      
         helper(['url', 'form']);
       
- 
-
-    }
+     }
 
     public function registro()
     {
@@ -128,17 +126,24 @@ class Auth extends BaseController
                 $password = $this->request->getPost('password');
                 $usuarioModel = new UsuarioModel();
                 $user_info = $usuarioModel->where('email', $email)->first();
+                
                 $check_password = password_verify($password, $user_info['password']);
+               // dd($check_password);
                 if (!$check_password) {
+                    
                     session()->setFlashdata('fail', "Password Incorrecto");
-                    return redirect()->to('/entrar')->withInput();
+                    return redirect()->to(site_url('/entrar'));
                 }else{
-                    $user_id= $user_info['idUsuario'];
                     $data=[
-                        'titulo' => "Pagina de Administrador"
-                    ];
-                    session()->set('loggeUser', $user_id);
-                    return redirect()->to('dashboard');
+                        'id' => $user_info['idUsuario'],
+                        'nombre' => $user_info['nombre'],
+                        'email' => $user_info['email'],
+                        'isLoggedIn' => true
+                        ];
+                    $session = session();
+                    $session->set($data);
+         //           dd($data);
+                    return redirect()->to(site_url('dashboard'));
                 }
                
        
