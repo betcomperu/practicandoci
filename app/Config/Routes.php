@@ -33,8 +33,8 @@ $routes->setAutoRoute(false);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->group('',  function (RouteCollection $routes) {
+$routes->get('/', 'Home::index',['filter'=> 'admin']);
+$routes->group('', function (RouteCollection $routes) {
     $routes->add('/entrar', 'auth::index');
     $routes->add('/registrar', 'auth::registro');
     $routes->post('/grabar', 'auth::grabar');

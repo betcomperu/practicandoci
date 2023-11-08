@@ -118,7 +118,7 @@
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
               <p>
-                Layout Options
+                Usuarios
                 <i class="fas fa-angle-left right"></i>
                 <span class="badge badge-info right">6</span>
               </p>
@@ -127,13 +127,13 @@
               <li class="nav-item">
                 <a href="pages/layout/top-nav.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation</p>
+                  <p>Listar</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Top Navigation + Sidebar</p>
+                  <p>Agregar</p>
                 </a>
               </li>
             
@@ -141,7 +141,7 @@
               <li class="nav-item">
                 <a href="pages/layout/collapsed-sidebar.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Collapsed Sidebar</p>
+                  <p>Backup</p>
                 </a>
               </li>
             </ul>
@@ -167,45 +167,11 @@
             </a>
           </li>
 
-          <li class="nav-header">MISCELLANEOUS</li>
-          <li class="nav-item">
-            <a href="iframe.html" class="nav-link">
-              <i class="nav-icon fas fa-ellipsis-h"></i>
-              <p>Tabbed IFrame Plugin</p>
-            </a>
-          </li>
-
-          <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-circle"></i>
-              <p>
-                Level 1
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Level 2</p>
-                </a>
-              </li>
- 
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
-              <p>Level 1</p>
-            </a>
-          </li>
           <li class="nav-header">OPCIONES</li>
           <li class="nav-item">
             <a href="<?php echo base_url('/logout');?>" class="nav-link">
               <i class="nav-icon far fa-circle text-danger"></i>
-              <p class="text">Logout</p>
+              <p class="text">Salir</p>
             </a>
           </li>
           <li class="nav-item">
